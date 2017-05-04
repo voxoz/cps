@@ -1,7 +1,7 @@
-{application, kvs_feeds,
+{application, cps,
   [
-    {description, "KVS feed-server"},
-    {vsn, "1"},
+    {description, "CPS Feed Server 0.4 for KVS"},
+    {vsn, "0.4.0"},
     {registered, []},
     {applications, [kernel, stdlib, kvs]},
     {mod, { kvs_feeds, []}},
