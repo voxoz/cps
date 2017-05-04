@@ -14,7 +14,7 @@ defmodule CPS.Mixfile do
   end
 
   defp package do
-    [files: ["include", "priv", "samples", "src", "LICENSE", "README.md", "rebar.config"],
+    [files: ["include", "src", "LICENSE", "README.md", "rebar.config"],
      licenses: ["MIT"],
      maintainers: ["Andy Martemyanov"],
      name: :cps,
